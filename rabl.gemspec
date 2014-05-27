@@ -22,9 +22,9 @@ Gem::Specification.new do |s|
 
   
   if RUBY_VERSION < "1.9"
-    s.add_dependency 'activesupport', '>= 2.3.14', '<= 4'
+    s.add_dependency 'activesupport', '>= 2.3.5', '<= 4'
   else
-    s.add_dependency "activesupport", '>= 2.3.14'
+    s.add_dependency "activesupport", '>= 2.3.5'
   end
 
   s.add_development_dependency 'riot',     '~> 0.12.3'
